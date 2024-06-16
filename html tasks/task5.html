@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <style>
+      table {
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+      input {
+        display: inline-block;
+        width: 99%;
+      }
+      .che {
+        width: auto;
+      }
+      .th1 {
+        text-align: left;
+      }
+      .th2 {
+        text-align: right;
+      }
+      .div1 {
+        margin-top: 5px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>First Name</th>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>
+          <input type="email" />
+        </td>
+      </tr>
+      <tr>
+        <th>Password</th>
+        <td>
+          <input type="password" />
+        </td>
+      </tr>
+      <tr>
+        <th>Re Password</th>
+        <td>
+          <input type="password" />
+        </td>
+      </tr>
+      <tr>
+        <th>Gender:</th>
+        <td>
+          <input class="che" type="checkbox" /><label>Male</label><br />
+          <input class="che" type="checkbox" /><label>Female</label>
+        </td>
+      </tr>
+      <tr>
+        <th>Age:</th>
+        <td><input type="number" /></td>
+      </tr>
+      <tr>
+        <th>Phone Number</th>
+        <td><input type="number" /></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td><textarea rows="15" cols="100"></textarea></td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <th>Country</th>
+        <td>
+          <select>
+            <option>Choose your county</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Languages known</th>
+        <td>
+          <input class="che" type="checkbox" />
+          <label>English</label>
+          <input class="che" type="checkbox" />
+          <label>Kannada</label><input class="che" type="checkbox" />
+          <label>Hindi</label>
+          <input class="che" type="checkbox" />
+          <label>Telugu</label>
+        </td>
+      </tr>
+      <tr>
+        <th class="th1" colspan="2">
+          <input class="che" type="checkbox" />
+          <label>I hereby declare all the given details are true</label>
+        </th>
+      </tr>
+      <tr>
+        <th class="th2" colspan="2">
+          Login to <a href="https://ethnus.com/">Ethnus</a> website
+        </th>
+      </tr>
+    </table>
+    <div class="div1">
+      <button>Register</button>
+    </div>
+  </body>
+</html>

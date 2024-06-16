@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+}
+td {
+  padding-right: 200px;
+  border-radius: 100px;
+}
+th {
+  border-radius: 100px;
+}
+table {
+  border-radius: 10px;
+  width: 1000px;
+  height: 150px;
+}
+.tb1 {
+}
+.a {
+  height: 25px;
+  width: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.b {
+  border-radius: 20px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.c {
+  border-radius: 30px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.d {
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.e {
+  height: 25px;
+  width: 50px;
+  border-radius: 0px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.f {
+  border-radius: 15px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.g {
+  height: 25px;
+  width: 50px;
+  border-radius: 45px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.h {
+  border-radius: 0px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
+.i {
+  height: 25px;
+  width: 50px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: solid;
+  padding: 50px;
+  border-color: forestgreen;
+}
